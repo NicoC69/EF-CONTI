@@ -1,0 +1,17 @@
+body {
+    background-color: silver;
+    background-image: url(../Images/fondo\ cesmic.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.imgcarrousel {
+    margin: auto;
+    padding-top: 20px;
+    max-height: 1200px;
+    max-width: 400px;
+}

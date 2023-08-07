@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import "_body";
+@import "_nav";
+@import "_footer";
+@import "_header";
+@import "_txt";
+
+
+/* @keyframes slidein {
+    from {
+    margin-right: 100%;
+    width: 300%
+    }
+
+    to {
+    text-align: center;
+    width: 100%;
+    }
+}
+
+.txtanimation {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: inherit;
+    overflow-y: hidden;
+} */
+
