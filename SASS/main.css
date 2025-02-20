@@ -15,22 +15,44 @@ body {
   align-items: center;
 }
 
-.img-logo {
-  width: 250px;
-  height: 200px;
-  margin-bottom: -50px;
-}
-
 .header-main {
   display: flex;
   flex-direction: column;
   align-items: center; /* Centers content horizontally */
-  gap: 1px;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  gap: 0px; /* Reduce space between elements */
+  width: 100%;
+}
+
+.img-logo {
+  width: 250px; /* Adjust size */
+  height: auto;
+  margin-bottom: -20px; /* Slight negative margin to bring text closer */
 }
 
 .header-main h1 {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight:1000;
+  font-size: 5em;
+  font-weight: 1000;
+  margin-top: -20px; /* Reduce spacing between logo and text */
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-logo {
+    width: 150px; /* Smaller logo on mobile */
+    margin-bottom: -5px; /* Adjust margin for mobile */
+  }
+
+  .header-main h1 {
+    font-size: 2.5em; /* Reduce text size */
+    margin-top: -5px; /* Adjust spacing */
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
 
 .carrousel-size {
@@ -171,11 +193,10 @@ h3 {
 p {
   color: black;
   font-family: sans-serif;
-  font-style: italic;
   text-shadow: 6px 3px 3px rgb(253, 253, 130);
   font-size: 30px;
   margin-left: auto;
-  text-align: justify;
+  text-align:center;
 }
 
 .title {
@@ -187,23 +208,3 @@ p {
     font-size: 2rem;
   }
 }
-/* @keyframes slidein {
-    from {
-    margin-right: 100%;
-    width: 300%
-    }
-
-    to {
-    text-align: center;
-    width: 100%;
-    }
-}
-
-.txtanimation {
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-    animation-fill-mode: inherit;
-    overflow-y: hidden;
-} *//*# sourceMappingURL=main.css.map */
